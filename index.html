@@ -10,7 +10,7 @@
 	<meta name="keywords" content="developer, mobile, react-native, react, javascript" />
 
 	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="" />
+	<meta property="og:title" content="Harpreet Singh's portfolio" />
 	<meta property="og:image" content="" />
 	<meta property="og:url" content="" />
 	<meta property="og:site_name" content="" />
@@ -29,16 +29,10 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 
 </head>
 
@@ -60,9 +54,12 @@
 								<h3><span>React-Native Developer</span></h3>
 								<p>
 								<ul class="fh5co-social-icons">
-									<li><a href="https://www.instagram.com/_i_am_harpreet_/"><i class="icon-instagram2"></i></a></li>
-									<li><a href="https://www.facebook.com/HSingh205/"><i class="icon-facebook2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/hsingh7743"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.instagram.com/_i_am_harpreet_/"><i
+												class="icon-instagram2"></i></a></li>
+									<li><a href="https://www.facebook.com/HSingh205/"><i class="icon-facebook2"></i></a>
+									</li>
+									<li><a href="https://www.linkedin.com/in/hsingh7743"><i
+												class="icon-linkedin2"></i></a></li>
 								</ul>
 								</p>
 							</div>
@@ -219,7 +216,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/1.png);">
+						<a onclick="goToNextPage(1)" class="work" style="background-image: url(images/1.png);">
 							<div class="desc">
 								<h3>SearchNits</h3>
 								<span>Lifestyle</span>
@@ -227,7 +224,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(2)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
 								<h3>Samadhaan</h3>
 								<span>Law</span>
@@ -235,7 +232,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/3.png);">
+						<a onclick="goToNextPage(3)" class="work" style="background-image: url(images/3.png);">
 							<div class="desc">
 								<h3>Gau-Megh</h3>
 								<span>Industry</span>
@@ -243,7 +240,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(4)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
 								<h3>Water-Go</h3>
 								<span>Marketting</span>
@@ -251,7 +248,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/3.png);">
+						<a onclick="goToNextPage(5)" class="work" style="background-image: url(images/3.png);">
 							<div class="desc">
 								<h3>QCIVU</h3>
 								<span>Lifestyle</span>
@@ -259,7 +256,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(6)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
 								<h3>Assistant App : Demo</h3>
 								<span>AI driven Chat</span>
@@ -267,7 +264,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(7)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
 								<h3>LoveMySkin</h3>
 								<span>Cosmetics</span>
@@ -275,7 +272,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="#" class="work" style="background-image: url(images/1.png);">
+						<a onclick="goToNextPage(8)" class="work" style="background-image: url(images/1.png);">
 							<div class="desc">
 								<h3>AlNaqlon</h3>
 								<span>Logistics</span>
@@ -329,8 +326,11 @@
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Hire Me!</h2>
-						<p>"If you came to the end and reading this it means you found my profile intersting so I propose an artistic union to forge exquisite mobile applications. Would you grace my table with your expertise, and together, let us craft digital masterpieces?"</p>
-						<p><a href="https://api.whatsapp.com/send/?phone=919501157743&text&type=phone_number&app_absent=0" class="btn btn-default btn-lg">Let's chat</a></p>
+						<p>"If you came to the end and reading this it means you found my profile intersting so I
+							propose an artistic union to forge exquisite mobile applications. Would you grace my table
+							with your expertise, and together, let us craft digital masterpieces?"</p>
+						<p><a href="https://api.whatsapp.com/send/?phone=919501157743&text&type=phone_number&app_absent=0"
+								class="btn btn-default btn-lg">Let's chat</a></p>
 					</div>
 				</div>
 			</div>
@@ -354,6 +354,11 @@
 		<script src="js/jquery.easypiechart.min.js"></script>
 		<!-- Main -->
 		<script src="js/main.js"></script>
+		<script>
+			function goToNextPage(elementId) {
+				window.location.href = `./viewProduct.html?id=${elementId}`;
+			}
+		</script>
 
 </body>
 

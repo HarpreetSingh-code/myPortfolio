@@ -1,0 +1,186 @@
+[
+    {
+        "id": 1,
+        "mainBackground": "https://cdn.dribbble.com/users/3558405/screenshots/18858028/media/415845633f2b102218d7a4bf96b77888.png?resize=840x630&vertical=center",
+        "title": "SearchNits",
+        "Platforms": [
+            "Android",
+            "IOS"
+        ],
+        "logo": "./images/projects_media/searchNits/searchnits_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": true
+    },
+    {
+        "id": 2,
+        "mainBackground": "https://res.cloudinary.com/storemaven/image/upload/f_auto,q_auto/v1597306796/iconflow_appstore-1.png",
+        "title": "Samadhaan",
+        "Platforms": [
+            "Android",
+            "IOS"
+        ],
+        "logo": "./images/projects_media/Samadhaan/samadhaan_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": true
+    },
+    {
+        "id": 3,
+        "mainBackground": "https://i.pinimg.com/originals/fe/f4/36/fef4366bc3583a43945be63259836b4c.png",
+        "title": "Gau-Megh",
+        "Platforms": [
+            "Android"
+        ],
+        "logo": "./images/projects_media/GauMegh/gauMegh_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": true
+    },
+    {
+        "id": 4,
+        "mainBackground": "https://assets.materialup.com/uploads/28b7af29-c8e1-4f4d-b5fd-8d797bb00e6a/preview.png",
+        "title": "Water-Go",
+        "Platforms": [
+            "Android"
+        ],
+        "logo": "./images/projects_media/WaterGo/waterGo_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": true
+    },
+    {
+        "id": 5,
+        "mainBackground": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1692271343/catalog/1692130725220429824/ky7jepewxvj2fzgirpt9.jpg",
+        "title": "QCIVU",
+        "Platforms": [
+            "IOS"
+        ],
+        "logo": "./images/projects_media/QCIVU/qcivu_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": false
+    },
+    {
+        "id": 6,
+        "mainBackground": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1692271343/catalog/1692130725220429824/ky7jepewxvj2fzgirpt9.jpg",
+        "title": "Assistant App - Demo",
+        "Platforms": [
+            "Android",
+            "IOS"
+        ],
+        "logo": "./images/projects_media/AssistantAppDemo/assistant_demo_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": true
+    },
+    {
+        "id": 7,
+        "mainBackground": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1692271343/catalog/1692130725220429824/ky7jepewxvj2fzgirpt9.jpg",
+        "title": "LoveMySkin",
+        "Platforms": [
+            "Android"
+        ],
+        "logo": "./images/projects_media/LoveMySkin/loveMySkin_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": false
+    },
+    {
+        "id": 8,
+        "mainBackground": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1692271343/catalog/1692130725220429824/ky7jepewxvj2fzgirpt9.jpg",
+        "title": "AlNaqlon",
+        "Platforms": [
+            "Android",
+            "IOS"
+        ],
+        "logo": "./images/projects_media/Alnaqlon/alNaqlon_logo.png",
+        "screenShots": [
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
+            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp"
+        ],
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "myRole": [
+            "Implemented responsive UI",
+            "API integration",
+            "Project Structure"
+        ],
+        "livePreviewAvaliable": false
+    }
+]

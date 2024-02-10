@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+</head>
+
+<body>
+    <div>
+        <h1 id="headerTitle"></h1>
+        <img id="mainBackground" src="" alt="portfolioBg">
+        <p id="about"></p>
+        <div id="platforms_container"></div>
+        <img id="projectLogo" src="" alt="projectLogo">
+        <div id="screenshots_images_container"></div>
+        <div id="my_roles_container"></div>
+    </div>
+    <script>
+        var queryString = decodeURIComponent(window.location.search);
+        queryString = queryString.substring(1);
+        var queries = queryString.split("&");
+        const projectId = queries[0].replace("id=", "")
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(data => {
+                const jsonObject = data.find(item => item.id == projectId);
+                const { id, mainBackground, title, Platforms, logo, screenShots, about, myRole, livePreviewAvaliable } = jsonObject;
+                console.log(jsonObject);
+                document.getElementById('title').innerText = title; // -----------> Page title
+
+                document.getElementById('mainBackground').src = mainBackground;
+                document.getElementById('projectLogo').src = logo;
+                document.getElementById('headerTitle').innerText = title;
+                document.getElementById('about').innerText = about;
+                const screenshots_images_container = document.getElementById("screenshots_images_container"); // Screen Shots Container ----> DIV
+                const my_roles_container = document.getElementById("my_roles_container"); //My Roles ----> DIV
+
+                //------------> Render screenshot [START] <-------------//
+                screenShots.forEach((item, index) => {
+                    // Create screenshot element:
+                    const screenShotsImage = document.createElement("img");
+                    screenShotsImage.setAttribute('id', `screenshot_id_${index}`)
+                    screenShotsImage.setAttribute('alt', `screenshot_image_#${index}`)
+                    screenShotsImage.setAttribute('class', `screenshot_image`)
+                    screenShotsImage.src = item;
+                    screenshots_images_container.appendChild(screenShotsImage)  // Append to body:
+                })
+                //----------> Render screenshot [END] <------------//
+                //------------> Render screenshot [START] <-------------//
+                myRole.forEach((item,index)=>{
+                    // Create my role element:
+                    const my_role_listItem = document.createElement("li");
+                    my_role_listItem.setAttribute('id', `my_role_listItem_id_${index}`)
+                    my_role_listItem.setAttribute('class', `my_role_listItem`)
+                    my_role_listItem.innerText = item;
+                    my_roles_container.appendChild(my_role_listItem)
+                })
+                //----------> Render screenshot [END] <------------//
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</body>
+
+</html>
