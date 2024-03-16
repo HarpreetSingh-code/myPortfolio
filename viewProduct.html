@@ -5,16 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title"></title>
+    <!-- viewProduct.css -->
+    <link rel="stylesheet" href="css/viewProduct.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 
 <body>
     <div>
-        <h1 id="headerTitle"></h1>
+        <div class="project_info_container">
+            <img id="projectLogo" src="" alt="projectLogo">
+            <p id="headerTitle"></p>
+        </div>
         <img id="mainBackground" src="" alt="portfolioBg">
+        <p id="about_title">About</p>
         <p id="about"></p>
         <div id="platforms_container"></div>
-        <img id="projectLogo" src="" alt="projectLogo">
-        <div id="screenshots_images_container"></div>
+        <div class="screenshot_main_container">
+            <p id="screen_shot_title">Screen shots</p>
+            <div id="screenshots_images_container"></div>
+        </div>
+        <p id="my_role_title">My role</p>
         <div id="my_roles_container"></div>
     </div>
     <script>
@@ -49,7 +59,7 @@
                 })
                 //----------> Render screenshot [END] <------------//
                 //------------> Render screenshot [START] <-------------//
-                myRole.forEach((item,index)=>{
+                myRole.forEach((item, index) => {
                     // Create my role element:
                     const my_role_listItem = document.createElement("li");
                     my_role_listItem.setAttribute('id', `my_role_listItem_id_${index}`)
