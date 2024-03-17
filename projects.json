@@ -7,15 +7,19 @@
             "Android",
             "IOS"
         ],
-        "logo": "https://github.com/HarpreetSingh-code/myPortfolio/blob/master/images/projects_media/SearchNits/searchnits_logo.png?raw=true",
+        "logo": "./images/projects_media/SearchNits/searchnits_logo.png",
         "screenShots": [
-            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp",
-            "https://scrnshts.club/wp-content/uploads/2024/02/4.webp",
-            "https://scrnshts.club/wp-content/uploads/2024/02/8.webp"
+            "./images/projects_media/SearchNits/1.jpeg",
+            "./images/projects_media/SearchNits/2.jpeg",
+            "./images/projects_media/SearchNits/2.jpeg"
         ],
-        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ad kjadakd kjajkjk ashk as hkhkadjka dkajsh dkasd kjas hkhkadjka hjkas djhkjad a jkds hasksd ask hk",
+        "about": "Searchnits is a mobile application avaliable for Android and IOS. This project contains 3 seprate applications 'Searchnits', 'SN company careers', 'Searchnits: Rescue NGO'. All of these apps are connected to each other where a user can post anything about animal adoption/rescue or look for a job, And the Animal NGO's or Companies can connect with the user. \n\nAll of them are avaliable on play store ",
         "myRole": [
+            "Created and maintained project from scratch",
+            "Writen clean, maintainable, and efficient code.",
             "Implemented responsive UI",
+            "Worked with native modules",
+            "API integration",
             "API integration",
             "Project Structure"
         ],
