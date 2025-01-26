@@ -117,12 +117,24 @@
 									<h3>Work Experience</h3>
 								</div>
 							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-genius"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">React-Native Developer</h3>
+										<span class="company">XICOM Technologies, Mohali : May,2024 - Present</span>
+									</div>
+									<div class="timeline-body">
+										<p>Built E-commerce, Fitness and Dating applications featuring video-calls, Live streaming, In-App purchases and Chats.</p>
+									</div>
+								</div>
+							</li>
 							<li class="animate-box timeline-unverted">
 								<div class="timeline-badge"><i class="icon-genius"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h3 class="timeline-title">React-Native Developer</h3>
-										<span class="company">Techner solutions, Mohali : May, 2023 - present</span>
+										<span class="company">Techner solutions, Mohali : May, 2023 - Apr, 2024</span>
 									</div>
 									<div class="timeline-body">
 										<p>Worked with native modules, advanced concepts of axios, sockets, Third party
@@ -218,23 +230,23 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(1)" class="work" style="background-image: url(images/1.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=com.tranzparency&hl=en_IN`)" class="work" style="background-image: url(images/1.png);">
 							<div class="desc">
-								<h3>SearchNits</h3>
-								<span>Lifestyle</span>
+								<h3>Tranzparency</h3>
+								<span>Communication</span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(2)" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=com.todayfitcustomer&hl=en_IN`)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
-								<h3>Samadhaan</h3>
-								<span>Law</span>
+								<h3>TodayFit</h3>
+								<span>Fitness</span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(3)" class="work" style="background-image: url(images/3.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=company.techner.Gaumegh&hl=en_IN`)" class="work" style="background-image: url(images/3.png);">
 							<div class="desc">
 								<h3>Gau-Megh</h3>
 								<span>Industry</span>
@@ -242,42 +254,34 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(4)" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=com.salonist&hl=en_IN`)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
-								<h3>Water-Go</h3>
+								<h3>Salonist for business</h3>
 								<span>Marketting</span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(5)" class="work" style="background-image: url(images/3.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=com.concrete_buddies&hl=en_IN`)" class="work" style="background-image: url(images/3.png);">
 							<div class="desc">
-								<h3>QCIVU</h3>
-								<span>Lifestyle</span>
+								<h3>The Thames Concrete</h3>
+								<span>Productivity</span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(6)" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(`https://play.google.com/store/apps/details?id=com.concrete_buddies_agent&hl=en_IN`)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
-								<h3>Assistant App</h3>
-								<span>AI driven Chat</span>
+								<h3>Concrete Buddies</h3>
+								<span>Productivity</span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(7)" class="work" style="background-image: url(images/4.png);">
+						<a onclick="goToNextPage(`https://apps.apple.com/kz/app/lovemyskin/id1572567039`)" class="work" style="background-image: url(images/4.png);">
 							<div class="desc">
 								<h3>LoveMySkin</h3>
 								<span>Cosmetics</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 text-center col-padding animate-box">
-						<a onclick="goToNextPage(8)" class="work" style="background-image: url(images/1.png);">
-							<div class="desc">
-								<h3>AlNaqlon</h3>
-								<span>Logistics</span>
 							</div>
 						</a>
 					</div>
@@ -358,7 +362,8 @@
 		<script src="js/main.js"></script>
 		<script>
 			function goToNextPage(elementId) {
-				window.location.href = `./viewProduct.html?id=${elementId}`;
+				//window.location.href = `./viewProduct.html?id=${elementId}`;
+				window.location.href = elementId;
 			}
 		</script>
 
